@@ -1,0 +1,19 @@
+{
+  "title": "iOS逆向开发：dyld动态链接",
+  "description": "整理关于iOS逆向期间涉及到的dyld动态链接的各种内容。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "ios_re_dyld_linker"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/ios_re_dyld_linker/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/ios_re_dyld_linker/pdf/ios_re_dyld_linker.pdf"
+    }
+  }
+}
