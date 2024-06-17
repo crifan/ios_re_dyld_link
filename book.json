@@ -5,7 +5,7 @@
     "github-buttons": {
       "buttons": [
         {
-          "repo": "ios_re_dyld_linker",
+          "repo": "ios_re_dyld_link",
           "user": "crifan",
           "type": "star",
           "count": true,
@@ -21,10 +21,10 @@
       ]
     },
     "sitemap-general": {
-      "prefix": "https://book.crifan.org/books/ios_re_dyld_linker/website/"
+      "prefix": "https://book.crifan.org/books/ios_re_dyld_link/website/"
     },
     "toolbar-button": {
-      "url": "https://book.crifan.org/books/ios_re_dyld_linker/pdf/ios_re_dyld_linker.pdf",
+      "url": "https://book.crifan.org/books/ios_re_dyld_link/pdf/ios_re_dyld_link.pdf",
       "icon": "fa-file-pdf-o",
       "label": "下载PDF"
     },

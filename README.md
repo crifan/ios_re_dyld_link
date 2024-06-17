@@ -1,7 +1,7 @@
 # iOS逆向开发：dyld动态链接
 
-* 最新版本：`v0.5`
-* 更新时间：`20240325`
+* 最新版本：`v0.5.1`
+* 更新时间：`20240617`
 
 ## 简介
 
@@ -13,7 +13,7 @@
 
 ### HonKit源码
 
-* [crifan/ios_re_dyld_linker: iOS逆向开发：dyld动态链接](https://github.com/crifan/ios_re_dyld_linker)
+* [crifan/ios_re_dyld_link: iOS逆向开发：dyld动态链接](https://github.com/crifan/ios_re_dyld_link)
 
 #### 如何使用此HonKit源码去生成发布为电子书
 
@@ -21,14 +21,14 @@
 
 ### 在线浏览
 
-* [iOS逆向开发：dyld动态链接 book.crifan.org](https://book.crifan.org/books/ios_re_dyld_linker/website/)
-* [iOS逆向开发：dyld动态链接 crifan.github.io](https://crifan.github.io/ios_re_dyld_linker/website/)
+* [iOS逆向开发：dyld动态链接 book.crifan.org](https://book.crifan.org/books/ios_re_dyld_link/website/)
+* [iOS逆向开发：dyld动态链接 crifan.github.io](https://crifan.github.io/ios_re_dyld_link/website/)
 
 ### 离线下载阅读
 
-* [iOS逆向开发：dyld动态链接 PDF](https://book.crifan.org/books/ios_re_dyld_linker/pdf/ios_re_dyld_linker.pdf)
-* [iOS逆向开发：dyld动态链接 ePub](https://book.crifan.org/books/ios_re_dyld_linker/epub/ios_re_dyld_linker.epub)
-* [iOS逆向开发：dyld动态链接 Mobi](https://book.crifan.org/books/ios_re_dyld_linker/mobi/ios_re_dyld_linker.mobi)
+* [iOS逆向开发：dyld动态链接 PDF](https://book.crifan.org/books/ios_re_dyld_link/pdf/ios_re_dyld_link.pdf)
+* [iOS逆向开发：dyld动态链接 ePub](https://book.crifan.org/books/ios_re_dyld_link/epub/ios_re_dyld_link.epub)
+* [iOS逆向开发：dyld动态链接 Mobi](https://book.crifan.org/books/ios_re_dyld_link/mobi/ios_re_dyld_link.mobi)
 
 ## 版权和用途说明
 
