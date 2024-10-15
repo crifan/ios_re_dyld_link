@@ -1,6 +1,6 @@
 {
   "title": "iOS逆向开发：dyld动态链接",
-  "description": "整理关于iOS逆向期间涉及到的dyld动态链接的各种内容。",
+  "description": "整理关于iOS逆向期间涉及到的dyld动态链接的各种内容。先是dyld概述；然后是分别详细介绍dyld和libdyld.dylib的具体内容；dyld包括，二进制工具的man page；如何查看dyld的版本；哪里可以找到dyld的源码；dyld的app的加载过程；以及相关函数，包括dyld的API，具体有dlfcn.h的dladdr、dlsym、dlinfo、dlopen、dlclose、dlopen_preflight；dyld.h的_dyld_image_count、_dyld_get_image_header、_dyld_get_image_vmaddr_slide、_dyld_get_image_name、_dyld_register_func_for_add_image、_dyld_register_func_for_remove_image、NSVersionOfRunTimeLibrary、NSVersionOfLinkTimeLibrary、_NSGetExecutablePath；dyld_priv.h的dyld_image_header_containing_address、dyld_program_sdk_at_least、dyld_shared_cache_file_path、_dyld_get_all_image_infos；dyld-interposing.h的DYLD_INTERPOSE，以及一些其他函数start、_dyld_start和相关变量，比如gProcessInfo和一些定义dyld_all_image_infos等；以及相关涉及到的地方；再介绍libdyld.dylib中的内容，包括man page，相关函数dyld_stub_binder等；以及其他dyld相关的内容，包括getsect.h的getsectdata、getsectdatafromFramework、getsectiondata、getsectbyname、getsegbyname、getsegmentdata、getsectdatafromheader、getsectdatafromheader_64、getsectbynamefromheader、getsectbynamefromheader_64、getsectbynamefromheaderwithswap、getsectbynamefromheaderwithswap_64；DYLD环境变量的DYLD_LIBRARY_PATH、DYLD_INSERT_LIBRARIES、DYLD_PRINT_LIBRARIES、DYLD_PRINT_STATISTICS、DYLD_IMAGE_SUFFIX、DYLD_PRINT_APIS、DYLD_PRINT_WARNINGS；相关工具dyldinfo等；Mach-O中Load Command的详细定义和具体command，比如LC_DYLD_CHAINED_FIXUPS，和其他涉及到的地方；以及相关结构体dyld_info_command、linkedit_data_command等定义。",
   "pluginsConfig": {
     "github-buttons": {
       "buttons": [
@@ -27,9 +27,6 @@
       "url": "https://book.crifan.org/books/ios_re_dyld_link/pdf/ios_re_dyld_link.pdf",
       "icon": "fa-file-pdf-o",
       "label": "下载PDF"
-    },
-    "callouts": {
-      "showTypeInHeader": false
     },
     "theme-default": {
       "showLevel": true
@@ -121,7 +118,7 @@
     "donate",
     "sitemap-general",
     "copy-code-button",
-    "callouts",
+    "blockquote-callout",
     "toolbar-button"
   ]
 }
