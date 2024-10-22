@@ -1,5 +1,15 @@
 # dyld函数概览
 
+## 图
+
+* dyld动态链接
+  * 在线查看
+    * [dyld动态链接| ProcessOn免费在线作图](https://www.processon.com/view/link/67170fe8b61b2f442a678ae8)
+  * 本地浏览
+    * ![dyld_dynamic_link_overview](../assets/img/dyld_dynamic_link_overview.jpg)
+
+## 文字
+
 * `dyld`
   * 是什么：二进制文件=工具
   * 位置
