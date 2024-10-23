@@ -6,7 +6,7 @@
       * https://opensource.apple.com/source/dyld/
         * [dyld-852.2](https://opensource.apple.com/source/dyld/dyld-852.2/)
     * 离线下载
-      * https://opensource.apple.com/tarballs/dyld/ == https://github.com/apple-oss-distributions/dyld/tags
+      * https://opensource.apple.com/tarballs/dyld/ ==(已自动跳转到) https://github.com/apple-oss-distributions/dyld/tags
         * [dyld-1125.5](https://github.com/apple-oss-distributions/dyld/releases/tag/dyld-1125.5)
           * `zip`: https://github.com/apple-oss-distributions/dyld/archive/refs/tags/dyld-1125.5.zip
           * `tag.gz`: https://github.com/apple-oss-distributions/dyld/archive/refs/tags/dyld-1125.5.tar.gz
